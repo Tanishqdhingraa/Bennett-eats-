@@ -13,7 +13,7 @@ import Credits from './components/Credits'
 
 const App = () => {
   return (
-    <main className='overflow-y-hidden text-white antialiased'>
+    <main className='overflow-y-hidden text-white antialiased font-display'>
       <HeroSection/>
       <Navbar/>
     <Dishes/>
