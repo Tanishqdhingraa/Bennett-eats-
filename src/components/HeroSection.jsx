@@ -25,15 +25,23 @@ const HeroSection = () => {
       {/* Gradient overlay */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black"></div>
 
-      {/* Content */}
-      <div className="relative z-10 flex flex-col items-center">
-        <motion.h1  
-        initial={{ opacity: 0, y: 150 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 2 }}
-       alt="restaura" className="w-full p-4 text-[200px]" >Bennett Eats </motion.h1>
-        <p className="p-2 text-5xl  tracking-tighter text-white">New Delhi</p>
-      </div>
+     {/* Content */}
+<div className="relative z-10 flex flex-col items-center text-center">
+  <motion.h1  
+    initial={{ opacity: 0, y: 150 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 2 }}
+    className="p-4 font-bold text-white tracking-tighter
+               text-5xl sm:text-7xl md:text-8xl lg:text-[150px] xl:text-[200px]"
+  >
+    Bennett Eats
+  </motion.h1>
+
+  <p className="p-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tighter text-white">
+    Greater Noida
+  </p>
+</div>
+
     </section>
   );
 };
