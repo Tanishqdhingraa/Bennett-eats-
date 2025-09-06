@@ -8,6 +8,7 @@ import Expert from './components/Expert'
 import Reviews from './components/Reviews'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Credits from './components/Credits'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
    <Reviews/>
    <Contact/>
    <Footer/>
+   <Credits/>
     </main>
       
   )
