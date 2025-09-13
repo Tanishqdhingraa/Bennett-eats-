@@ -9,7 +9,7 @@ import customer4 from "../assets/customer4.jpeg"
 
 const Reviews = () => {
   return (
-    <section className='container mx-auto mb-8 mt-12' id='Review'>
+    <section className='container mx-auto mb-8 mt-12' id='review'>
       {/* Review Text */}
       <p className='mb-10 text-3xl font-light text-center tracking-tighter text-white lg:max-w-4xl lg:mt-40 lg:text-[3.5rem] mx-auto'>
   {REVIEW.content}
